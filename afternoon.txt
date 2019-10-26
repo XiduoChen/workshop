@@ -1,0 +1,76 @@
+    1  cd Desktop
+    2  cd workshop
+    3  cd unix_challenge
+    4  ls
+    5  cat chian.cc.txt
+    6  cat country.txt
+    7  cat China.cc.txt
+    8  for item in $(Country.txt) ; do cat $item; donw
+    9  for item in $(Country.txt) ; do cat $item; done
+   10  for item in $(country.txt) ; do cat $item; done
+   11  for item in country.txt ; do cat $item; done
+   12  ls
+   13  ls>>countryname.txt
+   14  cat countryname
+   15  cat countryname.txt
+   16  for item in countryname.txt; do append>> cat item; done
+   17  for item in countryname.txt; do cat item>>append.txt; done
+   18  for item in countryname.txt; do cat $item>>append.txt; done
+   19  cat append
+   20  cat append.txt
+   21  cat Zambia.cc.txt
+   22  for item in countryname.txt; do $(cat $item)>>append.txt; done
+   23  for item in countryname.txt; do echo $(cat $item) >>append.txt; done
+   24  for item in countryname.txt; do cat $item |echo >>append.txt; done
+   25  for item in countryname.txt; do cat $item; done
+   26  cat countryname.txt
+   27  for item in countryname.txt; do echo | cat $item; done
+   28  ls unix_challenge
+   29  ls
+   30  cat "Cote_d'Ivoire.cc.txt"
+   31  ls | for item in $ls; do echo | cat $item; done
+   32  ls | for item in $ls; do echo | cat $item>>append; donw
+   33  ls | for item in $ls; do echo | cat $item>>append; done
+   34   for item in " ~/Desktop/workshop/unix_challenge";  do echo | cat $item>>append.txt; done
+   35   for item in " ~/Desktop/workshop/unix_challenge";  do echo | cat $item>>append.txt; done
+   36  for item in *; do echo | cat $item>>append.txt; done
+   37  for item in *; do echo | cat $item>>append.txt; done
+   38  for item in *.cc.txt; do echo | cat $item; done
+   39  for item in *.cc.txt; do echo | cat $item>>append.txt;done
+   40  cat append.txt>>country.txt
+   41  head country.txt
+   42  grep 1997 country.txt
+   43  grep 1997 country.txt>>1997.txt
+   44  head country.txt
+   45  git status 
+   46  git restore country.txt
+   47  git status
+   48  cat country
+   49  cat country.txt
+   50  cat  *.cc.txt >>country.txt
+   51  grep -w 1997 country >1997.txt
+   52  grep -w 1997 country.txt >1997.txt
+   53  grep --help
+   54  git remote add origin https://github.com/XiduoChen/workshop.git
+   55  git push -u origin master
+   56  nano loop.sh
+   57  cat loop.sh
+   58  git status
+   59  git checkout country.txt
+   60  head country.txt
+   61   git remote rm origin
+   62  bash loop.sh
+   63  cd
+   64  cd..
+   65  cd  ..
+   66  cd Desktop
+   67  pwd
+   68  cd Desktop
+   69  cd  ~/Desktop/workshop/
+   70  git remote add origin https://github.com/XiduoChen/workshop.git
+   71  git push -u origin master
+   72  git pull
+   73  git push
+   74  nano loop.sh
+   75  history afternoon.txt
+   76  history >> afternoon.txt
